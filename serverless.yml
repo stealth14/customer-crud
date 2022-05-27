@@ -1,0 +1,13 @@
+org: stealth14
+app: customer-crud
+service: customer-crud
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+
+functions:
+  hello:
+    handler: handler.hello
